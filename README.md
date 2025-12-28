@@ -1,3 +1,13 @@
+My scientific computing blog, based on the [Chirpy Jekyll theme](https://chirpy.cotes.page/), rendered at https://mdmosby.github.io/.
+
+This project was started from the [Chirpy Starter](https://github.com/cotes2020/chirpy-starter).
+
+## LICENSE
+The initial setup of this project was generated from [Chirpy Starter](https://github.com/cotes2020/chirpy-starter) under the [MIT][mit] license.
+
+The contents of the website and associated modifications are also provided under the MIT licence with Matthew Mosby as the copyright holder.
+
+<details>
 # Chirpy Starter
 
 [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;

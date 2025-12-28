@@ -14,5 +14,8 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
 sed -i -E "s/^(plugins=\()(git)(\))/\1\2 zsh-syntax-highlighting zsh-autosuggestions\3/" ~/.zshrc
 
-# Avoid git log use less
-echo -e "\nunset LESS" >>~/.zshrc
+{
+  echo -e "export EDITOR='code'"
+  echo -e "export GIT_EDITOR='code --wait'"
+  echo -e "alias e='\$EDITOR'"
+} >>~/.zshrc
