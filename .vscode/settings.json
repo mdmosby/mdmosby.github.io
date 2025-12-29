@@ -1,6 +1,6 @@
 {
   // Prettier
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.defaultFormatter": "prettier.prettier-vscode",
   "editor.formatOnSave": true,
   // Shopify Liquid
   "files.associations": {
@@ -37,5 +37,6 @@
       "args": ["-l", "-i"],
       "env": { "EDITOR": "code", "GIT_EDITOR": "code --wait" }
     }
-  }
+  },
+  "prettier.proseWrap": "always"
 }

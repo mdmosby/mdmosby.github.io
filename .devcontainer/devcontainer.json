@@ -14,7 +14,7 @@
         "timonwong.shellcheck",
         "mkhl.shfmt",
         "EditorConfig.EditorConfig",
-        "esbenp.prettier-vscode",
+        "prettier.prettier-vscode",
         "stylelint.vscode-stylelint",
         "yzhang.markdown-all-in-one",
         "mhutchie.git-graph",
