@@ -52,6 +52,7 @@ esac
 case "$subcommand" in
 "create")
   command "draft" "$title"
+  $EDITOR "_drafts/$title.md"
   ;;
 "publish")
   command "publish" "_drafts/$title.md"
