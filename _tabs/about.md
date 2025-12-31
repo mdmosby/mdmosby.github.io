@@ -4,9 +4,9 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-I'm Matt Mosby. I've been a developer of high performance scientific software since 2009, focusing on simuluation of
+I'm Matt Mosby. I've been a developer of high performance scientific software since 2009, focusing on simulation of
 large deformation solid mechanics and contact. In my rapidly approaching two decades of experience in research and
-development institutions, I have spent far less than 50% of my time on theoretical and mathematical develpment, whereas
+development institutions, I have spent far less than 50% of my time on theoretical and mathematical development, whereas
 a much greater proportion of my time is focused on:
 * learning about extracting performance from target architectures
 * integrating software components in complex HPC environments and systems

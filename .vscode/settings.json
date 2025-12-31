@@ -38,5 +38,6 @@
       "env": { "EDITOR": "code", "GIT_EDITOR": "code --wait" }
     }
   },
-  "prettier.proseWrap": "always"
+  "prettier.proseWrap": "always",
+  "cSpell.words": ["Mosby"]
 }

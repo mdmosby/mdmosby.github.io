@@ -18,7 +18,8 @@
         "stylelint.vscode-stylelint",
         "yzhang.markdown-all-in-one",
         "mhutchie.git-graph",
-        "lfs.vscode-emacs-friendly"
+        "lfs.vscode-emacs-friendly",
+        "streetsidesoftware.code-spell-checker"
       ]
     }
   }
