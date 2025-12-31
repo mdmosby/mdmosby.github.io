@@ -21,6 +21,47 @@
       },
       "problemMatcher": [],
       "detail": "Build the Jekyll site for production."
+    },
+    {
+      "label": "Create draft post",
+      "type": "shell",
+      "command": "./tools/post.sh",
+      "args": ["create", "${input:postTitle}"],
+      "group": {
+        "kind": "none"
+      },
+      "problemMatcher": [],
+      "detail": "Create a new draft post (prompts for title)."
+    },
+    {
+      "label": "Publish draft post",
+      "type": "shell",
+      "command": "./tools/post.sh",
+      "args": ["publish", "${input:postTitle}"],
+      "group": {
+        "kind": "none"
+      },
+      "problemMatcher": [],
+      "detail": "Publish a draft post (prompts for filename/slug)."
+    },
+    {
+      "label": "Unpublish post to draft",
+      "type": "shell",
+      "command": "./tools/post.sh",
+      "args": ["unpublish", "${input:postTitle}"],
+      "group": {
+        "kind": "none"
+      },
+      "problemMatcher": [],
+      "detail": "Unpublish a post back to _drafts (prompts for filename/slug)."
+    }
+  ],
+  "inputs": [
+    {
+      "id": "postTitle",
+      "type": "promptString",
+      "description": "Post title, filename, or slug",
+      "default": ""
     }
   ]
 }
