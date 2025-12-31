@@ -15,4 +15,4 @@ a much greater proportion of my time is focused on:
 
 This blog is an attempt to organize and archive findings, thoughts, complaints and philosophy on the above.
 
-_This blog is based on my personal opinion and in no way reflect the position(s) of my employer(s) whoever they may be at the time._
+_This blog is based on my personal opinion and in no way reflects the position(s) of my employer(s) whoever they may be at the time._
